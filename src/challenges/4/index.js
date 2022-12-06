@@ -1,7 +1,7 @@
 /**
  * For challenge descripton visit: https://adventofcode.com/2022/day/4
  */
-import R from 'ramda'
+import * as R from 'ramda'
 import fs from 'fs'
 import path from 'path'
 

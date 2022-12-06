@@ -1,4 +1,4 @@
-import R from 'ramda'
+import * as R from 'ramda'
 
 export const intersectionN = (first, ...rest) => {
   return R.reduce((acc, x) => R.intersection(acc, x), first, rest)
